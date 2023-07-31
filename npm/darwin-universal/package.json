@@ -1,0 +1,15 @@
+{
+  "name": "thor-rs-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "thor-rs.darwin-universal.node",
+  "files": [
+    "thor-rs.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
