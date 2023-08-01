@@ -38,6 +38,7 @@
     "build:debug": "napi build --platform",
     "prepublishOnly": "napi prepublish -t npm",
     "test": "ava",
+    "test:crate": "cargo test",
     "universal": "napi universal",
     "version": "napi version"
   }
