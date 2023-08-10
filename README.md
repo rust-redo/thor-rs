@@ -1,12 +1,16 @@
 # thor-rs
 
-A super fast cli tool to keep your `node_modules` healthy and fresh.
+A super fast cli tool to find potentially problematic installed packages.
 
 ## Features
 
-- [ ] List tons of installed packages in 1s
-- [ ] Fix potentially problematic packages
+- [ ] Find outdated packages
+- [ ] Find vulnerable packages
+- [ ] Find missed packages
 - [ ] Support workspace mode
+  - [ ] npm
+  - [ ] pnpm
+  - [ ] yarn
 
 ## Install
 
@@ -14,17 +18,13 @@ A super fast cli tool to keep your `node_modules` healthy and fresh.
 $ npm i -g thor-rs
 ```
 
+## Screenshot
+
 ## Commands
 
-### `thor list`
+```shell
+$ thor -h
+```
 
-List all the installed `node_modules`.
-
-### `thor outdated`
-
-List or update outdated packages based on lock-files or installed `node_modules`. 
-
-### `thor audit`
-
-List or fix vulnerable packages based on lock-files or installed `node_modules`. 
+## Benchmark
 
