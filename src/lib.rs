@@ -4,7 +4,6 @@
 extern crate napi_derive;
 
 mod agent;
-mod list;
 mod package;
 
 #[napi]
